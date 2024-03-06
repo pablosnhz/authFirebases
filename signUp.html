@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ⚡>
+<head>
+  <meta charset="utf-8">
+  <title>Registro de Usuario</title>
+  <link rel="canonical" href="URL_CANÓNICA_DE_TU_PÁGINA">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script type="module" src="signup.js"></script>
+  <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FIREBASE -->
+  <script type="module" src="firebaseConnect.js"></script>
+</head>
+
+<body>
+  <section class="formulario-crearcuenta">
+    <h1>Crear una nueva cuenta</h1>
+    <form id="formulario-crear">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" autocomplete="email" placeholder="Ingrese un email" required><br><br>
+    
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" autocomplete="current-password" placeholder="Contraseña" required><br><br>
+      
+      <input type="submit"  value="Registrarse">
+    </form>
+    <a href="index.html">¡Ya tengo una cuenta!</a>
+  </section>
+</body>
+</html>
